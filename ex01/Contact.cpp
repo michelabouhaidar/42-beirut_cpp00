@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Contact.cpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mabou-ha <mabou-ha@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mabou-ha <mabou-ha>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/28 17:54:15 by tayoub            #+#    #+#             */
-/*   Updated: 2025/08/31 01:46:08 by mabou-ha         ###   ########.fr       */
+/*   Updated: 2025/09/06 01:20:37 by mabou-ha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -116,9 +116,9 @@ bool Contact::isEmpty() const
 
 void Contact::displayContactInfo() const
 {
-	std::cout << "First Name: " << first_name_ << std::endl;
-	std::cout << "Last Name: " << last_name_ << std::endl;
-	std::cout << "Nickname: " << nickname_ << std::endl;
-	std::cout << "Phone Number: " << phone_number_ << std::endl;
-	std::cout << "Darkest Secret: " << darkest_secret_ << std::endl;
+	std::cout << "First Name: " << getFirstName() << std::endl;
+	std::cout << "Last Name: " << getLastName() << std::endl;
+	std::cout << "Nickname: " << getNickname() << std::endl;
+	std::cout << "Phone Number: " << getPhoneNumber() << std::endl;
+	std::cout << "Darkest Secret: " << getDarkestSecret() << std::endl;
 }
